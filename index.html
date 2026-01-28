@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GOOGLE FONT (OPTIONAL BUT NICE) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h1>Hi, I'm <span>Yamini</span> 👋</h1>
+    <p>Aspiring Data Analyst | Frontend Learner</p>
+    <a href="#contact">
+      <button>Contact Me</button>
+    </a>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <!-- ABOUT SECTION -->
+<section class="about" id="about">
+  <h2>About Me</h2>
+
+  <div class="about-container">
+    <!-- LEFT: IMAGE -->
+    <div class="about-image">
+      <img src="images/profile.jpeg" alt="Profile">
+    </div>
+
+    <!-- RIGHT: TEXT -->
+    <div class="about-text">
+      <p>
+        I am a frontend-focused learner passionate about creating clean, responsive user interfaces and exploring modern UI interactions.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- SKILLS SECTION -->
+<section class="skills" id="skills">
+  <h2>Skills</h2>
+
+  <div class="skill-box">
+    <span class="skill">HTML</span>
+    <span class="skill">CSS</span>
+    <span class="skill">JavaScript</span>
+    <span class="skill">React</span>
+    <span class="skill">UI Design</span>
+  </div>
+</section>
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
